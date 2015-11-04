@@ -1,0 +1,93 @@
+
+@charset "utf-8";
+/* CSS Document */
+	.desc{
+		font:Arial;
+		font-weight:bold;
+		}
+	
+	/*login*/
+	#login > form > div {			
+
+	    clear: both;
+	    overflow: hidden;
+	    padding:.1em;
+	    margin:1;
+		
+	}
+	#login > form > div > label {		
+
+		width: auto;
+		float: left;
+		padding-right: 0.5em;
+	}
+	#login > form > div > div {		
+
+		width: 15em;
+	  	float: right;
+	}
+	
+	
+	/*login*/
+	
+	#login{
+		padding:1em;
+		width:25em;
+		height:auto;
+		float:right;
+	}
+	#login input{
+		width:13.4em;}
+	
+	#login #Iniciar_sesion{
+		width:7em;
+		font-size:1.15em;
+		}
+		
+		
+		
+	
+	#Form_registro_Externo {
+		
+		width:30em;
+		margin-left:9em;
+	 	float:right;
+		position:relative;
+	}
+	#Form_registro_Externo .input{
+	/*	background:#6FF;*/
+		margin:.5em;
+		padding: .5em 1em;
+		border-color: #BDC7D8;
+		border-radius: .3em ;
+		border: solid #BDC7D8 1px;
+
+	
+	}
+	#Form_registro_Externo #guardar{
+			width:auto;
+			background:#6C3;
+			border-radius: 0.5em ;
+			color:white;
+			font-size:1.15em;
+			padding: 7px 20px;
+			text-align: center;
+	}
+	.input{
+			width:25em;
+			height:3em;
+	}
+	#Form_registro_Externo #guardar:hover {
+		border-radius: 0.5em ;
+		background:#6F0;
+		color:white;
+	} 
+	
+		img {
+		
+		margin-top: -195px;
+		margin-left: -290px;
+		left: 40%;
+		top: 50%;
+		position: absolute;
+		}
